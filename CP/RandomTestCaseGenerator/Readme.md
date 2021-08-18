@@ -16,12 +16,12 @@ main(){
     ofstream myfile;
     myfile.open("randomTestCase.txt");
     int X;
-    X=10;
+    X=1000;
     myfile << X << "\n";
     for(int i=0;i<X;i++){
         long long N,K,Q;
-        N=100000;
-        K=100000;
+        N=200;
+        K=200;
         Q=2000;
         myfile << N << " " << K << " " << Q << "\n";
         for(long long j=0;j<N;j++){

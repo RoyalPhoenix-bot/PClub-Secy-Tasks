@@ -16,10 +16,11 @@ Naruto can complete a task before the deadline if the total effort he's put up t
 Find if Naruto can become a Secretary or not.
 
 ## Input Format
-The first line contains **X**(1<=**X**<=10) test cases, each test case consists of 3 lines.\
+The first line contains **X**(1<=**X**<=1000) test cases, each test case consists of 3 lines.\
 The first line of each test case contains 3 space separated integers, **N**,**K**,**Q** respectively.(1<=N<=10<sup>5</sup>, 1<=K<=N, 1<=Q<=2000).\
 The second line contains **N** space separated integers  **A<sub>i</sub>**.(0<=**A<sub>i</sub>**<=10<sup>9</sup>)\
-The last line consists of **10** space separated integers **E<sub>i</sub>**.(0<=**E<sub>i</sub>**<=10<sup>9</sup>)
+The last line consists of **10** space separated integers **E<sub>i</sub>**.(0<=**E<sub>i</sub>**<=10<sup>9</sup>)\
+It is guaranteed that sum of **N** over all the test cases does not exceed 2x10<sup>5</sup>.
 
 ## Output Format
 Print `Yes` if Naruto can become a Secretary or `No` if he can't.

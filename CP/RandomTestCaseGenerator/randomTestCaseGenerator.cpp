@@ -6,16 +6,22 @@ main(){
     myfile.open("randomTestCase.txt");
     int X;
     srand(time(0));
-    X=rand()%10;
+    X=rand()%1000;
     if(X==0){
-       X=10;
+       X=1000;
     }
     myfile << X << "\n";
+    long long NSum=0,max=200000;
     for(int i=0;i<X;i++){
         long long N,K,Q;
         N=rand()%100000;
         if(N==0){
             N=100000;
+        }
+        NSum+=N;
+        if(NSum>max){
+            NSum-=N;
+            N = (max-NSum)/(X-i);
         }
         K=rand()%N;
         if(K==0){
