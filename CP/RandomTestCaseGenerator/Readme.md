@@ -8,7 +8,7 @@ Running the code over-writes `randomTestCase.txt`, so copy-paste the test case o
 ##### Boundary Test Case Generation
 In order to get boundary test cases, we'll have to hardcode the test case.\
 For example:\
-This code generates a test case with all the upper bound values:\
+This code generates a test case with all the upper bound values:
 ```
 #include<bits/stdc++.h>
 using namespace std;
