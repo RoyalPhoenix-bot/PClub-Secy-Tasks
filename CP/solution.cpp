@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define IAmSpeed ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 int main(){
+    IAmSpeed
     //Precomputing the factors of numbers less than 1000.
     vector<long long> v(2000+1,0);
     for(int i=1;i<=2000;i++){
