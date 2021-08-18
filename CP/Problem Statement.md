@@ -6,8 +6,8 @@
 Modern-Age Naruto wants to become a Secretary at the Programming Club in his University. The Programming Club gave him **N** tasks, out of which he needs to solve at least **K** of them. Each task requires **A<sub>i</sub>** (1<=i<=N) amount of effort to be put in before the deadline.
 Naruto had planned to start working **10** days prior to the deadline and put Infinite  amount of effort each day. However, he slacked off and put only **E<sub>i</sub>** (1<=i<=N) amount of effort.\
 It is the final day and Naruto realizes he is in trouble. He asks the Programming Club to give him more time. The Programming Club, agreed and handed him a piece of paper, on which it was written:\
-_Though we cannot extend the deadline we can give you access to_ **T** _time machines._ **T** _is the units digit of sum of the number of factors of all number less than or equal to_ **Q**. _Factors of a number include both 1 and the number itself._
-And had given him the value of **Q**.\
+_Though we cannot extend the deadline we can give you access to_ **T** _time machines._ **T** _is the units digit of sum of the number of factors of all number less than or equal to_ **Q**. _Factors of a number include both 1 and the number itself._\
+And gave him the value of **Q**.\
 Naruto ,being the lazy guy he is, decides to create **T** shadow clones and send each of them in a time machine.\
 The Time Machines are linked with each other and can only go to different days in the past, to avoid overlapping. Since Naruto only put in some efforts for the last 10 days, it only makes sense to send a time machine back to one of those days.\
 Once a Shadow Clone is back in the past, he can only put as much effort as Naruto had initially put on that particular day. Their effort gets added to the net effort put in by Naruto.\
