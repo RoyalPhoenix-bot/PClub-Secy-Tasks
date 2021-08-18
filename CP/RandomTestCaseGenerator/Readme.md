@@ -1,6 +1,6 @@
 ##### Random Test Case Generation
 The Code Generates Random Test Cases according to the constraints given in the question.\
-It writes the test case on a file, since big outputs on the console and cumbersome.\
+It writes the test case on a file, since big outputs on the console are cumbersome.\
 In order to run the code, create a file named `randomTestCase.txt` in the same directory as the `.cpp` file.\
 Running the code over-writes `randomTestCase.txt`, so copy-paste the test case onto another `.txt` file after running the code.
 
