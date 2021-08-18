@@ -1,5 +1,5 @@
 # Naruto and his Dream
-###### Time limit: 1 seconds
+###### Time limit: 1 second
 ###### Memory limit: 256MB
 
 
