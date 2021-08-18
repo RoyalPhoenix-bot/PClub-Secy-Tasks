@@ -9,7 +9,7 @@ It is the final day and Naruto realizes he is in trouble. He asks the Programmin
 _Though we cannot extend the deadline we can give you access to_ **T** _time machines._ **T** _is the units digit of sum of the number of factors of all number less than or equal to_ **Q**. _Factors of a number include both 1 and the number itself._
 And had given him the value of **Q**.\
 Naruto ,being the lazy guy he is, decides to create **T** shadow clones and send each of them in a time machine.\
-The Time Machines are linked with each other and can only go the different days in the past, to avoid overlapping. Since Naruto only put in some efforts for the last 10 days, it only makes sense to send a time machine back to one of those days.\
+The Time Machines are linked with each other and can only go to different days in the past, to avoid overlapping. Since Naruto only put in some efforts for the last 10 days, it only makes sense to send a time machine back to one of those days.\
 Once a Shadow Clone is back in the past, he can only put as much effort as Naruto had initially put on that particular day. Their effort gets added to the net effort put in by Naruto.\
 Naruto sends the time machines back optimally in order to maximise his effort.\
 Naruto can complete a task before the deadline if the total effort he's put up to now, strictly exceeds the effort required to complete the task.\
@@ -44,5 +44,5 @@ To find the number of time machines, we need to find the sum of the number of fa
 In Order to maximize his efforts, Naruto sends the time machines back to day 1,5,6,9,10.\
 And so his net effort increases by 5+8+4+10+7 = 34.\
 So the total effort increases to **72**. (38+34)\
-With a total effort of 72, Naruto can complete a total of 4 tasks (2<sup>nd</sup>, 3<sup>rd</sup>, 4<sup>th</sup> and 5<sup>th</sup>).\
+With a total effort of 72, Naruto can complete a total of 4 tasks (2<sup>nd</sup>, 3<sup>rd</sup>, 5<sup>th</sup> and 6<sup>th</sup>).\
 So he has a chance to become a Secretary.
