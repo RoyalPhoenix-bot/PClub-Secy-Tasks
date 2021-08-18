@@ -22,6 +22,7 @@ main(){
         if(NSum>max){
             NSum-=N;
             N = (max-NSum)/(X-i);
+            NSum+=N;
         }
         K=rand()%N;
         if(K==0){
