@@ -25,22 +25,23 @@ The last line consists of **10** space separated integers **E<sub>i</sub>**.(0<=
 Print `Yes` if Naruto can become a Secretary or `No` if he can't.
 
 
-####Example  
-#######Input  
+####Example\ 
+#######Input\
 
 ```
 1
 6 4 3
 90 10 40 80 42 69
 5 3 0 0 8 4 1 0 10 7
+```  
 
-```
 ###Output
 
 ```
 Yes
 ```
-###Note
+
+###Note\
 In the given test case, the current net effort put in by Naruto is the sum of all **E<sub>i</sub>** which is 38.\
 To find the number of time machines, we need to find the sum of the number of factors of all numbers **<=Q**. Given Q=3, we see i=1,2 and 3. The number of factors of 1,2,3 are 1,2 and 2 respectively. So, Naruto receives 1+2+2 = 5 time machines.\
 In Order to maximize his efforts, Naruto sends the time machines back to day 1,5,6,9,10.\
