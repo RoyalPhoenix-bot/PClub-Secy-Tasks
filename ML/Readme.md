@@ -1,4 +1,5 @@
 # Various Loss Functions
+
 ## Cube loss function
 After a lot of hit and trial, I found that the most optimal solution was only obtained because the dataset was self generated, I could easily take the ideal values as the beginning point of the model parameters. (Yet still the gradient could not be brought down less than 10<sup>-5</sup>).\
 Taking more random starting points of the model parameters, it gives quite a bad solution and the gradient of the loss function is still far away from being zero.\
